@@ -15,8 +15,6 @@
 		AEB9B6CA26583CDB00F388D8 /* TabbarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB9B6C926583CDB00F388D8 /* TabbarView.xib */; };
 		AED654562653E82400B88102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED654552653E82400B88102 /* AppDelegate.swift */; };
 		AED654582653E82400B88102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED654572653E82400B88102 /* SceneDelegate.swift */; };
-		AED6545A2653E82400B88102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED654592653E82400B88102 /* ViewController.swift */; };
-		AED6545D2653E82400B88102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED6545B2653E82400B88102 /* Main.storyboard */; };
 		AED6545F2653E82500B88102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AED6545E2653E82500B88102 /* Assets.xcassets */; };
 		AED654622653E82500B88102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AED654602653E82500B88102 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -31,8 +29,6 @@
 		AED654522653E82400B88102 /* AutolayoutWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AED654552653E82400B88102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AED654572653E82400B88102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AED654592653E82400B88102 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AED6545C2653E82400B88102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AED6545E2653E82500B88102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AED654612653E82500B88102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AED654632653E82500B88102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +48,7 @@
 		AE12048A266A7B19003E5FE7 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				AEB9B6C926583CDB00F388D8 /* TabbarView.xib */,
 				AEB9B6C726583CC800F388D8 /* TabbarView.swift */,
 				AE12048E266A7BAB003E5FE7 /* MyTabbarViewController.swift */,
 			);
@@ -90,13 +87,10 @@
 				AE12048A266A7B19003E5FE7 /* Tabbar */,
 				AED654552653E82400B88102 /* AppDelegate.swift */,
 				AED654572653E82400B88102 /* SceneDelegate.swift */,
-				AED654592653E82400B88102 /* ViewController.swift */,
 				AE120493266A9524003E5FE7 /* MainTabbarController.swift */,
-				AED6545B2653E82400B88102 /* Main.storyboard */,
 				AED6545E2653E82500B88102 /* Assets.xcassets */,
 				AED654602653E82500B88102 /* LaunchScreen.storyboard */,
 				AED654632653E82500B88102 /* Info.plist */,
-				AEB9B6C926583CDB00F388D8 /* TabbarView.xib */,
 			);
 			path = AutolayoutWorkshop;
 			sourceTree = "<group>";
@@ -161,7 +155,6 @@
 				AED654622653E82500B88102 /* LaunchScreen.storyboard in Resources */,
 				AED6545F2653E82500B88102 /* Assets.xcassets in Resources */,
 				AEB9B6CA26583CDB00F388D8 /* TabbarView.xib in Resources */,
-				AED6545D2653E82400B88102 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +165,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED6545A2653E82400B88102 /* ViewController.swift in Sources */,
 				AED654562653E82400B88102 /* AppDelegate.swift in Sources */,
 				AE120494266A9524003E5FE7 /* MainTabbarController.swift in Sources */,
 				AE120491266A7EC1003E5FE7 /* Collection+Extensions.swift in Sources */,
@@ -186,14 +178,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AED6545B2653E82400B88102 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AED6545C2653E82400B88102 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AED654602653E82500B88102 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
